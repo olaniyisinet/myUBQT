@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>UBQT - Customers</title>
+    <title>UBQT - Contact Us</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,22 +64,19 @@
                                     <li><a href="coming-soon.html">What We Do</a></li>
                                     <!--								<li><a href="services.html">Services</a></li>-->
 
-                                    <li class="active"><a href="about.html">Who We Are</a>
+                                    <li><a href="about.html">Who We Are</a>
                                         <ul>
                                             <li><a href="Customers.html">Our Customers</a></li>
                                             <li><a href="Partners.html">Our Partners</a></li>
-
                                         </ul>
                                     </li>
                                     <li><a href="#"> Press & Blog</a>
                                         <ul>
                                             <li><a href="press.html">Press Release</a></li>
                                             <li><a href="blog.html">Blog</a></li>
-
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a>
-                                    </li>
+                                    <li class="active"><a href="contact.html">Contact</a></li>
                                     <li><a href="login.html">Client Login</a></li>
 
                                     <li><button class="btn" href="verify.html">Verify</button></li>
@@ -105,66 +101,110 @@
             <div class="slide-img" style="background-image:url(images/inner-banner.jpg);"></div>
             <div class="inner-content">
                 <div class="container">
-                    <h1>Our Customers</h1>
+                    <h1>Contact Us</h1>
                     <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
                     </ul>
                     <!--/.breadcrumb-->
                 </div>
-
+                <!--/.container-->
             </div>
             <!--/.inner-content-->
         </section>
         <!--/.banner-section-->
         <!--BANNER SECTION END-->
 
-        <section id="main" style="letter-spacing: .4px; line-height: 1.6em; font-size: 14px">
-            <div class="about-inforow section" style="padding: 0">
-                <div class="container text-center">
-
+        <section id="main">
+            <div id="contact-section" class="contact-inforow section">
+                <div class="container">
                     <div class="row">
-                        <div class="col col-md-8 col-md-offset-2 title-col">
-                            <h2 class="section-title" style="color: white">Our Partners<span></span></h2>
-                            <!--                            <p>UBQT has been recognised for its innovation and impact</p>-->
+                        <div class="col col-xs-12">
+                            <div class="contact-box">
+                                <h2>Get In Touch</h2>
+                                <form action="#" class="pt-10">
+                                    <div class="row">
+                                        <div class="col col-sm-6">
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Your Name" name="name" id="name" required type="text">
+                                            </div>
+                                            <!--/.form-group-->
+                                        </div>
+                                        <!--/.col-->
+                                        <div class="col col-sm-6">
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Your Email" name="email" id="email" required type="email">
+                                            </div>
+                                            <!--/.form-group-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                    <!--/.row-->
+                                    <div class="row">
+                                        <div class="col col-xs-12">
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Subject" name="subject" id="subject" required type="text">
+                                            </div>
+                                            <!--/.form-group-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                    <!--/.row-->
+                                    <div class="row">
+                                        <div class="col col-xs-12">
+                                            <div class="form-group">
+                                                <textarea id="textarea" class="form-control" required placeholder="Write Your Message..." name="message"></textarea>
+                                            </div>
+                                            <!--/.form-group-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                    <!--/.row-->
+                                    <button type="submit" class="btn" id="btn-submit">Send Request</button>
+                                </form>
+                            </div>
+                            <!--/.contact-box-->
                         </div>
                         <!--/.col-->
                     </div>
-                    <!--                    <h3>Engage with consumers</h3>-->
-                    <div class="row ">
-                        <div class="col col-sm-12 pt-12 ">
-                            <h3><span class="sub-title ">Some brands that use our services include</span></h3>
-                            <hr class="hr-lg">
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col col-sm-4 ">
-                            <img class="img-thumbnail" src="http://placehold.it/250x250" alt="">
-                        </div>
-                        <div class="col col-sm-4 ">
-                            <img class="img-thumbnail" src="http://placehold.it/250x250" alt="">
-                        </div>
-                        <div class="col col-sm-4 ">
-                            <img class="img-thumbnail" src="http://placehold.it/250x250" alt="">
-                        </div>
-                    </div>
+                    <!--/.row-->
                     <hr class="hr-lg">
                     <div class="row">
-                        <div class="col col-sm-4 ">
-                            <img class="img-thumbnail" src="http://placehold.it/250x250" alt="">
+                        <div class="col col-md-4">
+                            <div class="contact-col">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <address>S-202, Lipsum street,<br>California, USA</address>
+                            </div>
+                            <!--/.contact-col-->
                         </div>
-                        <div class="col col-sm-4 ">
-                            <img class="img-thumbnail" src="http://placehold.it/250x250" alt="">
+                        <!--/.col-->
+                        <div class="col col-md-4">
+                            <div class="contact-col">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="#">hello@companyname.com</a>
+                            </div>
+                            <!--/.contact-col-->
                         </div>
-                        <div class="col col-sm-4 ">
-                            <img class="img-thumbnail" src="http://placehold.it/250x250" alt="">
+                        <!--/.col-->
+                        <div class="col col-md-4">
+                            <div class="contact-col">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>+02 000 000 0202</span>
+                            </div>
+                            <!--/.contact-col-->
                         </div>
+                        <!--/.col-->
                     </div>
-                    <hr class="hr-lg">
+                    <!--/.row-->
                 </div>
-
+                <!--/.container-->
             </div>
-
+            <!--/#contact-section-->
+            <!--CONTACT END-->
+            <div class="contact-map">
+                <div class="map-marker" data-lat="23.0201818" data-lng="72.4396585"></div>
+                <!--/.map-marker-->
+            </div>
+            <!--/.contact-map-->
         </section>
         <!--/#main -->
 
@@ -235,7 +275,6 @@
         <!--#/footer-->
         <!--FOOTER END-->
         <a class="back-top" href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-        <a href="https://themeforest.net/item/UBQT-multipurpose-one-multi-page-html5-template/20887454?ref=LitmusThemes" target="_blank" class="purchase-btn"><i class="fa fa-shopping-cart" style="margin-right:8px; font-size:1.2em;"></i> Purchase Now</a>
     </div>
     <!--/#wrapper-->
     <script src="js/jquery.js"></script>
@@ -259,5 +298,4 @@
     <script src="js/general-scripts.js"></script>
     <!-- Main Script -->
 </body>
-
 </html>
